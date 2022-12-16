@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <!--tu z kolei mamy link do styli ale poza nimi sa też style poniżej - pytanie które style zostaną zastosowane?
+     okazuje się że znaczenie ma kolejność i ważniejszy ten, który jest ostatni - czyli w tym przypadku będzie zastosowany
+     kolor green z poniższego stylu. Ale gdybyśmy ten link do pliku css przenieśli poniżej tego kodu to będzie zastosowany
+     kolor z pliku .css. Ważny skrót ctrl+shift + strzała w górę lub w dół przenosi fragmenty kodu poniżej lub powyzej-->
+
+
+    <style>
+        p {
+            color: green;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <p style="color: blue">Akapit 1</p>
+    <!--ale z kolei gdy mamy zadeklarowany bezpośrednio w akapicie kolor to ten kolor jest ostateczny
+      - ten kolor jest bezpośrednio zadeklarowany dla tego elementu i on zawsze wugra-->
+    <p>Akapit nr 2</p>
+
+</body>
+</html>

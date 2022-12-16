@@ -1,0 +1,41 @@
+/** {*/
+/*    border: 2px solid red;*/
+/*}*/
+/*ten selektor * wybiera wszystko*/
+
+/*div {*/
+/*    border: 5px solid red;*/
+/*}*/
+/*  ten selektor div wybiera tylko pudełka ale bez obramówki strony*!*/
+
+/*.boxes {*/
+/*    border: 10px solid red;*/
+/*}*/
+/*selektor .boxes wybiera tylko te pudełka, które mają klasę boxes*/
+
+
+/*#box-one {*/
+/*    border: 10px solid red;*/
+/*}*/
+/*selektor box-one wybioera tylko ten jeden box*/
+
+/*#big-box > div {*/
+/*    border: 3px solid red;*/
+/*}*/
+/*ten > selektor wybiera tylko dzieci big-boxa ale nie wnuczków*/
+
+/*#big-box  div {*/
+/*    border: 3px solid red;*/
+/*}*/
+/*ten z kolei wybiera wszystkie divy z big-boxa*/
+
+
+/*#box-two + div {*/
+/*    border: 10px solid red;*/
+/*}*/
+/*ten selektor + wybiera tylko element sasiadujacy bezpośrednio z box-two (box-two ma numer 5)*/
+
+#box-two ~ div {
+    border: 10px solid red;
+}
+/* ten selektor tyldy ~ wybiera elementy sąsiadujace*/

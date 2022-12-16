@@ -1,0 +1,41 @@
+/*dajemy # i nazwe pedełka - i co ciekawe jak to wszystko tu ustawimy to nam się taki kwadrat wyświetli na stronie*/
+#box-1 {
+    height: 100px;
+    width: 300px;
+    background-color: orange;
+    margin: 10px;
+    border: 10px solid green;
+}
+
+#box-2 {
+    height: 400px;
+    width: 200px;
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid black;
+/*    solid to jest styl obramowania a black to jest kolor obramoowania*/
+
+}
+
+#box-3 {
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid black;
+    box-sizing: initial;
+
+    color: white;
+}
+
+#box-4 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid orange;
+
+}

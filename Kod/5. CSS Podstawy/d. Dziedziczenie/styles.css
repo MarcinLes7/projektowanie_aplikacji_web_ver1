@@ -1,0 +1,22 @@
+p {
+    color: red;
+}
+
+strong {
+    color: orange;
+}
+
+em {
+    color: blue;
+}
+
+/*tutaj mamy odnośniki do elementów, które znajdują się w pliku html, p okresla wszystkie nagłówki*/
+/*strong okresla wszystkie elementy, które mają parametr strong */
+/*z kolei em określa wszystkie napisy oznaczone jako em*/
+
+/*tu kolejność nie ma znaczenia bo dziedziczenie wynika z elementów odpowiednio znajdujących sie w swoich pudełkach
+w pliku html. Możemy sobie zmieniac kolejność ale zawsze będzie się wyświetlać zgodnie z dziedziczeniem*/
+
+p1 {
+    color: blueviolet;
+}
